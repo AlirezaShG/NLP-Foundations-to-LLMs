@@ -1,0 +1,53 @@
+# Core scientific stack -- notebooks 01, 02, 03
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+requests
+
+# Tokenizers and datasets -- 01, 03, 04, 05, 06
+tokenizers
+datasets
+huggingface_hub
+
+# Word embeddings -- 03
+torch
+fasttext
+
+# Transformers, fine-tuning, evaluation -- 04, 05
+transformers
+peft
+sqlparse
+lm_eval
+
+# Retrieval and agents -- 06, 07
+lancedb
+langchain-core
+langchain-openai
+langchain-huggingface
+langchain-ollama
+langchain-text-splitters
+langgraph
+ragas
+openpyxl
+pydantic
+
+# Document parsing -- 06 (legal PDFs), 07 (travel guide)
+pypdf
+pdf2image
+pillow
+llama-parse
+
+# External APIs -- 07
+amadeus
+tavily-python
+kagglehub
+nest-asyncio
+
+# Optional. Notebook 06 serves the RAG pipeline through Chainlit and runs
+# DeepSeek-OCR under vLLM; both need a CUDA GPU and neither is required to read
+# the notebook or to run the retrieval and evaluation cells.
+# chainlit
+# vllm

@@ -1,0 +1,44 @@
+# Secrets. There is no .env or .env.example in this repository by design --
+# the notebooks read credentials from the process environment and the required
+# variable names are documented in the README.
+.env
+.env.*
+
+.venv
+env/
+venv/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints
+
+*.sqlite3
+*.db
+*.dat
+*.out
+*.log
+
+# Datasets are excluded by default, then the small committed ones are added
+# back. See data/README.md for what is and is not in the repository.
+*.csv
+!data/emails_1.csv
+!data/urls.csv
+!data/parsed_travel_book.csv
+
+# Downloaded or generated at run time by the notebooks
+data/wikitext/
+data/lancedb_store/
+data/laws/
+data/cc.en.300.bin
+data/*.zip
+outputs/
+checkpoints/
+lora_out/
+wandb/
+
+.vscode/
+.idea/
+.DS_Store
